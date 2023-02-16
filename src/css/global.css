@@ -5,12 +5,17 @@ html {
     font-size: 62.5%;
 }
 
-*{
-    font-size: 1.6rem;
-}
-
 p {
     font-family: 'Open Sans', sans-serif;
+    font-size: 1.8rem;
+    margin: 15px 0 24px;
+    line-height: 22px;
+}
+
+h1,
+h2 {
+    font-size: 3.8rem;
+    line-height: 55px;
 }
 
 header,
@@ -19,5 +24,27 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 60px 70px;
+    margin: 58px 70px 25px;
+    gap: 40px;
+}
+
+input {
+    width: 300px;
+    padding: 16px 20px 10px;
+    margin-right: 10px;
+    border: 1px solid var(--light);
+    border-radius: 5px;
+}
+
+input::placeholder {
+    color: var(--light);
+}
+
+button {
+    color: var(--light-grayish);
+    background: var(--bright);
+    border: none;
+    border-radius: 5px;
+    padding: 13px 58px;
+    box-shadow: 5px 5px 15px rgba(148, 148, 148, 0.3);
 }

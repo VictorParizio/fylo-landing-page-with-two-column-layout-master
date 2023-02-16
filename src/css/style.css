@@ -1,4 +1,17 @@
 header nav ul{
     display: flex;
     gap: 55px;
+    font-size: 1.6rem;
+}
+
+header img {
+    height: 45px;
+}
+
+.hero div>div{
+    display: flex;
+}
+
+.hero img {
+    width: 49.5%;
 }
