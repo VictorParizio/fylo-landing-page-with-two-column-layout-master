@@ -1,0 +1,10 @@
+:root {
+    --very-dark: hsl(243, 87%, 12%);
+    --desaturated: hsl(238, 22%, 44%);
+
+    --bright: hsl(224, 93%, 58%);
+    --moderate: hsl(170, 45%, 43%);
+
+    --light-grayish: hsl(240, 75%, 98%);
+    --light: hsl(0, 0%, 75%);
+}
