@@ -7,12 +7,17 @@ header img {
     height: 45px;
 }
 
+.hero>div {
+    width: 560px;
+}
+
 .hero div>div{
     display: flex;
+    
 }
 
 .hero img {
-    width: 49.5%;
+    height: 435px;;
 }
 
 .stay-productive {
@@ -74,7 +79,7 @@ header img {
 }
 
 .testimonial div p {
-    font-size: .8rem;
+    font-size: 0.8rem;
     line-height: 12px;
 }
 
@@ -84,5 +89,34 @@ header img {
 }
 
 .stay-productive>img {
-    width: 42%;
+    height: 376px;
+}
+
+.early-access {
+    background-color: var(--desaturated);
+    color: var(--light-grayish);
+    align-items: start;
+    padding: 90px 70px;
+}
+
+.early-access h2 {
+    font-size: 3rem;
+    letter-spacing: 1px;
+}
+
+.early-access p {
+    width: 420px;
+}
+
+.early-access input {
+    display: block;
+    margin-bottom: 15px;
+    width: 462px;
+}
+
+.early-access button {
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 16px 28px;
+    box-shadow: 5px 5px 15px rgba(94, 94, 94, 0.3);
 }

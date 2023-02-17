@@ -9,7 +9,6 @@ p {
     font-family: 'Open Sans', sans-serif;
     line-height: 22px;
 }
-
 h1,
 h2 {
     font-size: 3.8rem;
@@ -19,6 +18,11 @@ h2 {
 h1~p{
     font-size: 1.7rem;
     margin: 15px 0 24px;
+}
+
+body{
+    display: grid;
+    justify-content: center;
 }
 
 header,
@@ -33,7 +37,7 @@ footer {
 
 input {
     width: 300px;
-    padding: 16px 20px 10px;
+    padding: 14px 20px;
     margin-right: 10px;
     border: 1px solid var(--light);
     border-radius: 5px;
@@ -41,6 +45,7 @@ input {
 
 input::placeholder {
     color: var(--light);
+    font-size: 1.2rem;
 }
 
 button {
