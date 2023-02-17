@@ -1,7 +1,6 @@
 header nav ul{
     display: flex;
     gap: 55px;
-    font-size: 1.6rem;
 }
 
 header img {
@@ -14,4 +13,76 @@ header img {
 
 .hero img {
     width: 49.5%;
+}
+
+.stay-productive {
+    background: url(../images/bg-curve-desktop.svg) no-repeat center;
+    background-size: 360% 100%;
+    margin-top: 130px;
+}
+
+.stay-productive>div {
+    margin: 94px 0 50px;
+}
+
+.stay-productive h2 {
+    margin-bottom: 26px;
+}
+
+.stay-productive h2~p {
+    margin: 15px 0;
+    width: 520px;
+}
+
+.stay-productive a {
+    color: var(--moderate);
+    font-size: 1.4rem;
+    padding: 6px 0;
+    border-bottom: 1px solid var(--moderate);
+}
+
+.stay-productive a::after {
+    content: url(../images/icon-arrow.svg);
+    padding-left: 5px;
+}
+
+.testimonial {
+    width: 324px;
+    margin-top: 48px;
+    padding: 20px 36px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial p{
+    font-size: 1.2rem;
+    line-height: 21px;
+    margin: 8px 0;
+}
+
+.testimonial>div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.testimonial div h3 {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 12px;
+}
+
+.testimonial div p {
+    font-size: .8rem;
+    line-height: 12px;
+}
+
+.testimonial div>img {
+    border-radius: 50%;
+    height: 30px;
+}
+
+.stay-productive>img {
+    width: 42%;
 }

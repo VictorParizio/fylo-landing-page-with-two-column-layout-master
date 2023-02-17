@@ -7,8 +7,6 @@ html {
 
 p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.8rem;
-    margin: 15px 0 24px;
     line-height: 22px;
 }
 
@@ -18,13 +16,18 @@ h2 {
     line-height: 55px;
 }
 
+h1~p{
+    font-size: 1.7rem;
+    margin: 15px 0 24px;
+}
+
 header,
 section,
 footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 58px 70px 25px;
+    padding: 58px 70px 25px;
     gap: 40px;
 }
 
