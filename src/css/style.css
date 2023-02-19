@@ -1,3 +1,7 @@
+header{
+    gap: 765px;
+}
+
 header nav ul{
     display: flex;
     gap: 55px;
@@ -13,11 +17,10 @@ header img {
 
 .hero div>div{
     display: flex;
-    
 }
 
 .hero img {
-    height: 435px;;
+    height: 435px;
 }
 
 .stay-productive {
@@ -49,6 +52,10 @@ header img {
 .stay-productive a::after {
     content: url(../images/icon-arrow.svg);
     padding-left: 5px;
+}
+
+.stay-productive a:hover {
+    opacity: 70%;
 }
 
 .testimonial {
@@ -95,7 +102,7 @@ header img {
 .early-access {
     background-color: var(--desaturated);
     color: var(--light-grayish);
-    align-items: start;
+    gap: 265px;
     padding: 90px 70px;
 }
 
@@ -120,3 +127,71 @@ header img {
     padding: 16px 28px;
     box-shadow: 5px 5px 15px rgba(94, 94, 94, 0.3);
 }
+
+footer {
+    background-color: var(--very-dark);
+    color: var(--light-grayish);
+    display: grid;
+    padding-top: 100px;
+    gap: 20px;
+}
+
+footer>a{
+    width: fit-content;
+}
+
+footer .menu {
+    display: flex;
+    gap: 265px;
+}
+
+footer .menu .contact p{
+    display: inline-block;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+footer .menu .links{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 150px;
+    width: 300px;
+    gap: 20px 178px;
+}
+
+footer .menu .links a:hover{
+    color: var(--bright);
+}
+
+footer .menu .social{
+    display: flex;
+    gap: 12px;
+    height: fit-content;
+}
+
+footer .menu .social i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--light-grayish);
+    border-radius: 50%;
+    height: 28px;
+    width: 28px;
+    font-size: 1.2rem;
+}
+
+footer .menu .social i:hover{
+    border: 1px solid var(--bright);
+    color: var(--bright);
+}
+
+footer .attribution {
+    text-align: center;
+}
+
+footer .attribution a:hover{
+    color: var(--bright);
+}
+
+/* background-color: rgb(67, 109, 61); */
