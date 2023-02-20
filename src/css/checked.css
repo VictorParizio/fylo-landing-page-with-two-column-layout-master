@@ -1,0 +1,17 @@
+.records .err,
+.records2 .err{
+    display: none;
+}
+
+.records.invalid .err,
+.records2.invalid .err {
+    color: hsl(0, 100%, 50%);
+    font-size: 1.2rem;
+    display: block;
+}
+
+
+.records.invalid .campo,
+.records2.invalid .campo {
+    border: 1px solid hsl(0, 100%, 50%);
+}

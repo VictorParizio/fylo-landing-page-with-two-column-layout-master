@@ -15,10 +15,6 @@ header img {
     width: 560px;
 }
 
-.hero div>div{
-    display: flex;
-}
-
 .hero img {
     height: 435px;
 }
@@ -117,11 +113,11 @@ header img {
 
 .early-access input {
     display: block;
-    margin-bottom: 15px;
     width: 462px;
 }
 
 .early-access button {
+    margin-top: 15px;
     font-size: 1.4rem;
     font-weight: 600;
     padding: 16px 28px;
