@@ -26,6 +26,17 @@
     border: 1px solid hsl(0, 100%, 50%);
 }
 
+@media (max-width: 1024px) {
+    .records.invalid .err {
+        position: absolute;
+        left: 10px;
+    }
+
+    .records2.invalid .err {
+        width: fit-content;
+    }
+}
+
 @media (max-width: 580px) {
     .records.invalid .err {
         position: absolute;
