@@ -1,17 +1,34 @@
+.records {
+    position: relative;
+}
+
 .records .err,
-.records2 .err{
+.records2 .err {
     display: none;
 }
 
-.records.invalid .err,
-.records2.invalid .err {
+.records.invalid .err {
+    position: absolute;
     color: hsl(0, 100%, 50%);
     font-size: 1.2rem;
     display: block;
 }
 
+.records2.invalid .err {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.2rem;
+    display: block;
+    text-align: start;
+}
 
 .records.invalid .campo,
 .records2.invalid .campo {
     border: 1px solid hsl(0, 100%, 50%);
+}
+
+@media (max-width: 580px) {
+    .records.invalid .err {
+        position: absolute;
+        left: 10px;
+    }
 }

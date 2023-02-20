@@ -1,0 +1,287 @@
+@media (max-width: 1330px) {
+    h1 {
+        font-size: 3.2rem;
+        line-height: 40px;
+    }
+
+    h1~p {
+        font-size: 1.4rem;
+    }
+
+    input {
+        width: 280px;
+    }
+
+    button {
+        padding: 13px 38px;
+    }
+
+    header {
+        gap: 450px;
+    }
+
+    header img {
+        height: 40px;
+    }
+
+    .hero>div {
+        width: 470px;
+    }
+
+    .hero img {
+        height: 250px;
+    }
+
+    .stay-productive>div {
+        margin: 94px 0 50px;
+    }
+
+    .stay-productive h2 {
+        margin-bottom: 0px;
+        font-size: 2.8rem;
+    }
+
+    .stay-productive h2~p {
+        margin: 15px 0;
+        width: 420px;
+    }
+
+    .stay-productive>img {
+        height: 250px;
+    }
+
+    .early-access {
+        gap: 0px;
+    }
+
+    .early-access h2 {
+        font-size: 2.8rem;
+    }
+
+    .early-access p {
+        font-size: 1.4rem;
+    }
+
+    .early-access input {
+        width: 380px;
+    }
+
+    footer a>img {
+        height: 40px;
+    }
+
+    footer .menu {
+        gap: 100px;
+    }
+
+    footer .menu .links {
+        gap: 20px 80px;
+    }
+}
+
+@media (max-width: 1024px) {
+    header {
+        padding: 58px 40px 25px;
+        gap: 100px;
+    }
+
+    section,
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        padding: 58px 40px 25px;
+        text-align: center;
+    }
+
+    input {
+        width: 280px;
+    }
+
+    header img {
+        height: 40px;
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+    }
+
+    .stay-productive {
+        background: url(../images/bg-curve-mobile.svg) no-repeat center;
+        background-size: 400% 100%;
+        margin-top: 80px;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .stay-productive>div {
+        margin: 50px 0;
+    }
+
+    .stay-productive h2 {
+        font-size: 2.4rem;
+    }
+
+    .stay-productive h2~p {
+        text-align: start;
+    }
+
+    .testimonial {
+        text-align: start;
+        width: 300px;
+        margin: 48px auto 0;
+    }
+
+    .stay-productive>img {
+        margin-top: 50px;
+        height: 250px;
+    }
+
+    .early-access {
+        gap: 30px;
+        padding: 50px 0;
+    }
+
+    .early-access input {
+        margin: 0;
+    }
+
+    .early-access button {
+        width: 380px;
+    }
+
+    footer {
+        gap: 30px;
+    }
+
+    footer .menu {
+        display: grid;
+        gap: 30px;
+        text-align: start;
+    }
+
+    footer .menu .social {
+        justify-content: center;
+    }
+
+    footer .attribution,
+    footer .attribution a {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 580px) {
+
+    header,
+    section,
+    footer {
+        padding: 50px 20px;
+    }
+
+    header {
+        gap: 50px;
+    }
+
+    header img {
+        height: 25px;
+    }
+
+    header nav ul {
+        gap: 20px;
+    }
+
+    header nav ul a {
+        font-size: 1.4rem;
+    }
+
+    h1 {
+        font-size: 2.8rem;
+    }
+
+    input {
+        width: 280px;
+        margin: 0;
+    }
+    
+    button {
+        width: 280px;
+        margin-top: 20px;
+    }
+
+    .hero>div {
+        width: 300px;
+    }
+
+    .hero img {
+        height: 200px;
+    }
+
+    .stay-productive {
+        margin-top: 50px;
+    }
+
+    .stay-productive>img {
+        margin-top: 30px;
+        height: 230px;
+    }
+
+    .stay-productive>div {
+        margin: 50px 0;
+    }
+    
+    .stay-productive h2 {
+        font-size: 1.8rem;
+    }
+    
+    .stay-productive h2~p {
+        width: 300px;
+        font-size: 1.4rem;
+    }
+    
+    .early-access h2 {
+        font-size: 1.8rem;
+        width: 300px;
+    }
+    
+    .early-access p {
+        font-size: 1.4rem;
+        width: 300px;
+    }
+    
+    .early-access input,
+    .early-access button {
+        width: 300px;
+    }
+    
+    footer {
+        gap: 30px;
+    }
+    
+    footer li p,
+    footer li a {
+        font-size: 1.4rem;
+    }
+    
+    footer .menu {
+        display: grid;
+        gap: 30px;
+        text-align: start;
+    }
+    
+    footer .menu .links {
+        gap: 20px 50px;
+        width: 200px;
+    }
+
+    footer .menu .social {
+        justify-content: center;
+    }
+
+    footer .attribution {
+        width: 200px;
+    }
+
+    footer .attribution,
+    footer .attribution a {
+        font-size: 1.2rem;
+    }
+}
